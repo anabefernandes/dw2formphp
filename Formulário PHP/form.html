@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Madimi+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de cadastro!</title>
+</head>
+<body>
+    <div>
+        <h1>Fomulário de cadastro do desenvolvedor. #HELLODEV</h1>
+        <p>Complete com suas informações!</p>
+    </div>
+    <form method="POST" enctype="multipart/form-data" action="index.php">
+        <fieldset>
+            <div>
+                <label>Nome completo:</label>
+                <input type="text" name="nome">
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <label>Senha:</label>
+                <input type="password" name="senha">
+            </div>
+            <div>
+                <label>Data de nascimento:</label>
+                <input type="date" name="dataNascimento">
+            </div>
+            <div>
+                <label>Cidade:</label>
+                <input type="text" name="cidade">
+            </div>
+            <div>
+                <label>Estado:</label>
+                <select name="estado">
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+            </select>
+            </div>
+            <div>
+                <label>Sexo:</label>
+                <label>
+                <input type="radio" name="sexo" value="Masculino">Masculino
+                <input type="radio" name="sexo" value="Feminino">Feminino
+                </label>
+            </div>
+            <div>
+                <label>Interesses:</label>
+                <label>
+                    <input type="checkbox" name="interesses[]" value="Front-end">Front-end
+                    <input type="checkbox" name="interesses[]" value="Back-end">Back-end
+                    <input type="checkbox" name="interesses[]" value="Full Stack">Full Stack
+                </label>                         
+            </div>
+            <div>
+                <label>Envie uma foto para personalizar seu perfil:</label>
+                <input type="file" name="Foto">
+            </div>
+            <div>
+                <label>Fale sobre você, descreva seus hobbies, queremos te conhecer!</label>
+                <textarea name="sobre" id="" cols="30" rows="5"></textarea>
+            </div>
+            <div>
+                <label>Selecione a cor do seu background e personalize seu cadastro de úsuario:</label>
+                <input type="color" name="cor">
+            </div>
+            <div>
+                <input type="submit" value="Cancelar">
+                <input type="submit" value="Confirmar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

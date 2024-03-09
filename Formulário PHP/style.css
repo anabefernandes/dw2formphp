@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: "Madimi One", sans-serif;;
+    color: rgb(73, 71, 71);
+    padding: 3%;
+}
+p{
+    font-family: sans-serif;
+    color: rgb(62, 62, 62);
+    margin-bottom: 30px;
+}
+header{
+    margin-bottom: 25px;
+    text-align: center;
+}
+.headerForm{
+    margin-bottom: 10%;
+
+}
+body{
+    font-family: "Inria Sans", sans-serif;
+    font-size: 1em;
+    color: #1b1b1b;
+    justify-content: center;
+}
+fieldset{
+    border: 0;
+}
+input, select, textarea, button{
+    border-radius: 5px;
+    padding: 0.2em;
+    border: 1px solid #9b9b9b;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+}
+label{
+    font-weight: bold;
+}
+
+.divDetalhada {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 80%;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+}
+.resposta{
+    margin-left: 50%;
+    margin-top: 5px;
+}
+.nomes{
+    position:absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top:0;
+
+}
+
+.divDetalhada img {
+    position: relative;
+    bottom: 270px;
+    width: 200px;
+    margin: auto;
+    margin-left: 100px;
+}
+.inria-sans-light {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
